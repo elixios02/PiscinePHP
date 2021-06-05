@@ -1,0 +1,242 @@
+body
+{
+	background-color: #F4F3F3;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+
+}
+
+#content
+{
+	background-color: white;
+	width: 1200px;
+	min-height: 1200px;
+	margin: auto;
+	position: relative;
+	top : -8px;
+	border-left: 2px ridge #9A9A9A;
+	border-right: 2px ridge #9A9A9A;
+	border-bottom: 2px ridge #9A9A9A;
+}
+
+
+/*ICONES*/
+
+
+.sm-icon
+{
+	height: 32px;
+	width: 32px;
+	margin: auto;
+	display: block;
+}
+
+
+/*VIGNETTES ARTICLES*/
+
+
+.article
+{
+	padding-top: 20px;
+	height: 400px;
+	width: 300px;
+}
+
+.article-img
+{
+	height: 250px;
+	width: 250px;
+	display: block;
+	padding: 10px;
+	margin: auto;
+	border: 1px solid black;
+}
+
+.article-nom
+{
+	padding-top: 20px;
+	text-align: center;
+}
+
+.article-bloc-prix
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding-top: 30px;
+}
+
+.article-prix
+{
+	padding-right: 30px;
+	font-size: 28px;
+	border-right: 1px solid black;
+}
+
+.article-add
+{
+	height: 32px;
+	width: 32px;
+	padding-left: 30px;
+}
+
+/*BANNIERES ET BLOCS IMAGES*/
+
+
+#top-banner
+{
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 10px;
+	background-color: #333333;
+	color: white;
+}
+
+#encart-soldes
+{
+	height: 300px;
+}
+
+.slideshow
+{
+	height: 400px;
+	background-color: green;
+	display: none;
+}
+
+#welcome-login
+{
+	position: relative;
+	top: 15px;
+	right: 30px;
+	display: none;
+}
+
+/*MENU ET BLOCS BOUTONS*/
+
+
+#top-connection-banner
+{
+	padding-top: 10px;
+	padding-right: 5px;
+	display: flex;
+	justify-content: flex-end;
+	overflow: hidden;
+}
+
+.block-icon
+{
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.block-icon:hover
+{
+	cursor: pointer;
+	color: red;
+}
+
+#mon-compte
+{
+	display: none;
+}
+
+#admin-pan
+{
+	display: none;
+}
+
+#menu
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	width: 850px;
+}
+
+#menu ul
+{
+	text-align: center;
+	display: inline;
+	margin: 0;
+	padding: 15px 4px 17px 0;
+	list-style: none;
+}
+
+#menu ul li {
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 20px;
+  background: #333333;
+  color: white;
+  border: 1px solid #333333;
+}
+
+#menu ul li:hover
+{
+	cursor: pointer;
+  background: white;
+  color: #333333;
+}
+
+/*BLOCS DIVERS*/
+
+#popup-connect
+{
+	position: relative;
+	right: 50px;
+	top: 8px;
+	text-align: center;
+	width: 350px;
+	height: 120px;
+	background-color: #7FCFF0;
+	padding: 20px;
+	border-radius: 15px;
+	float: right;
+	display: none;
+}
+
+#banner-grey
+{
+	height: 40px;
+	width: 1200px;
+	padding-left: 10px;
+	padding-top: 4px;
+	background-color: #333333;
+	font-size: 24px;
+	text-align: left;
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
+}
+
+#best-sales-content
+{
+	background-color: white;
+	height: 860px;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	overflow: auto;
+}
+
+#footer
+{
+	height: 25px;
+	text-align: right;
+	font-style: italic;
+	font-family: "Courier New", Courier, "Liberation Mono", monospace;
+	padding-right: 5px;
+}
+
+/*-------------------------------------------------------------------*/
+
+/*PAGE ARTICLE*/
+
+#fiche-article
+{
+	height: 860px;
+}
